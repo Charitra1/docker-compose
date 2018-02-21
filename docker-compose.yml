@@ -1,0 +1,13 @@
+version: '2'
+services:
+ server11:
+  build: .
+  ports:
+   - "8888:80"
+  volumes:
+   - .:/var/www/html
+  tty: true
+# server2:
+ # build: server2
+  #ports:
+   #- "2000:80"
